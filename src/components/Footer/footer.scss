@@ -1,0 +1,97 @@
+#footer-wp {
+  #foot-body {
+    background-color: #ffffff;
+    padding: 50px 0px;
+    .wp-inner {
+      display: flex;
+      #info-company {
+        width: 25%;
+        .title {
+          font-size: 20px;
+          margin-bottom: 25px;
+        }
+        .desc {
+          font-family: "Roboto Light";
+          text-align: justify;
+          color: #6d6d6d;
+          margin-bottom: 25px;
+        }
+      }
+      #info-shop {
+        width: 25%;
+        .title {
+          font-size: 20px;
+          margin-bottom: 25px;
+          padding-left: 25px;
+        }
+        .list-item {
+            padding-left: 0;
+          li {
+            margin-bottom: 10px;
+            list-style: none;
+            p {
+              position: relative;
+              color: #000;
+              font-family: "Roboto Light";
+              padding-left: 25px;
+            }
+            a {
+              position: relative;
+              color: #000;
+              font-family: "Roboto Light";
+              padding-left: 25px;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      #newfeed {
+        width: 25%;
+        .title {
+          font-size: 20px;
+          margin-bottom: 25px;
+        }
+        .desc {
+          font-family: "Roboto Light";
+          text-align: justify;
+          color: #6d6d6d;
+          margin-bottom: 25px;
+        }
+        #form-reg {
+          #email {
+            display: block;
+            width: 100%;
+            padding: 6px 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+          }
+          #sm-reg {
+            display: block;
+            width: 100%;
+            background: #da1818;
+            border: none;
+            outline: none;
+            padding: 10px 0px;
+            text-transform: uppercase;
+            color: #fff;
+            font-family: "Roboto Medium";
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
+  #foot-bot{
+    background: #da1818;
+    text-align: center;
+    padding: 10px 0px;
+    #copyright{
+        color: #fff;
+        line-height: normal;
+        font-family: 'Roboto Light';
+    }
+    p{
+        margin-bottom: 0;
+    }
+  }
+}

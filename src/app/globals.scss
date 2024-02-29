@@ -1,0 +1,29 @@
+body{
+  font-size:14px;
+  font-family: 'Roboto Regular';
+  a{
+    text-decoration: none !important;
+  }
+  .wrapper {
+    background-color: #e5e9f0;
+    .sidebar-page {
+      display: flex;
+      // position: fixed;
+      padding-top: 4.1rem;
+      .wp-content {
+        flex: auto;
+        padding-left: 15rem;
+        min-height: 100vh;
+        .form-inline .form-control {
+          display: inline-block;
+          width: auto;
+          vertical-align: middle;
+      }
+        table tr td {
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+
